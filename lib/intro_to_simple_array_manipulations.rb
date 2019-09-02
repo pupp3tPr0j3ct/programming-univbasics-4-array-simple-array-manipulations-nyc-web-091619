@@ -7,18 +7,18 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  array.pop
+  array.pop()
 end
 
-def pop_with_args(array, 2)
+def pop_with_args(array)
   array.pop(2)
 end
 
 def using_shift(array)
-  array.shift
+  array.shift()
 end
 
-def shift_with_args(array, 2)
+def shift_with_args(array)
   array.shift(2)
 end
 
@@ -31,11 +31,11 @@ def using_insert(array, element)
 end
 
 def using_uniq(array)
-  array.uniq
+  array.uniq()
 end
 
 def using_flatten(array)
-  array.flatten
+  array.flatten()
 end
 
 def using_delete(array, string)
