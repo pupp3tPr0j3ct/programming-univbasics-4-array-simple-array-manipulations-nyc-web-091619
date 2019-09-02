@@ -27,7 +27,7 @@ def using_concat(array, array1)
 end
 
 def using_insert(array, element)
-  array.insert(array[4] == element)
+  array[4] = array.insert(element)
 end
 
 def using_uniq(array)
